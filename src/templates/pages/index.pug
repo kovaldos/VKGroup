@@ -1,0 +1,190 @@
+extends ../template
+
+block variables
+    - var title = 'Навигация'
+    - var contactForm = false
+
+block content
+    main.main
+        .wrapper
+            section.section.banner
+                .banner__content
+                    .banner__heading
+                        h1.banner__title Теперь Почта Mail.ru — часть экосистемы VK
+                    .banner__svg-box 
+                        svg.banner__strokes(width="804" height="275")
+                            use(xlink:href="assets/images/sprite.svg#main-banner-strokes")
+                    .banner__block.block-left.block-bottom
+                    .banner__block.block-right
+                        .banner__img-box 
+                            img.banner__img(src="assets/images/main-banner-bg.png", alt="Девушка и парень запускают квадрокоптер")
+            .container
+                section.section.changes 
+                    .section__heading.changes__heading 
+                        h2.section__title.changes__title Кое-что поменялось
+                    .section__text-block.changes__text-block
+                        p.section__text.changes__text VK — уже не просто соцсеть, а десятки самых разных сервисов, многие из которых вам давно знакомы, другие — пока нет
+                    .changes__icons-box
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-01.png", alt="Иконка Delivery club")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-02.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-03.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-04.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-05.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-06.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-07.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-08.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-09.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-10.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-11.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-12.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-13.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-14.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-15.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-16.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-17.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-18.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-19.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-20.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-21.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-22.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-23.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-24.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-25.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-26.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-27.png", alt="#")
+                        .changes__icons-item 
+                            img.changes__img(src="assets/images/changes-icons-item-icon-28.png", alt="#")
+                    .changes__gradient-box
+                section.section.benefits 
+                    .section__heading.benefits__heading 
+                        h2.section__title.benefits__title С VK удобнее, безопаснее и выгоднее
+                    .section__text-block.benefits__text-block
+                        p.section__text.benefits__text Ведь все наши продукты объединяет единый вход, платёжный сервис для&nbsp;покупок и подписка
+                    .benefits__items 
+                        .benefits__item
+                            .benefits__item-content 
+                                .benefits__item-heading 
+                                    .benefits__logo-box 
+                                        svg.benefits__logo(width="102" height="50")
+                                            use(xlink:href="assets/images/sprite.svg#vk-id")
+                                .benefits__item-text-block 
+                                    p.benefits__item-text Единый сервис авторизации во всех наших продуктах
+                                .benefits__item-img-box 
+                                    .benefits__item-img-container 
+                                        img.benefits__item-img(src="assets/images/benefits-item-img-01.png", alt="мини-карточка профиля пользователя vk")
+                        .benefits__item
+                            .benefits__item-content 
+                                .benefits__item-heading 
+                                    .benefits__logo-box 
+                                        svg.benefits__logo(width="144" height="50")
+                                            use(xlink:href="assets/images/sprite.svg#vk-pay")
+                                .benefits__item-text-block 
+                                    p.benefits__item-text Сервис для покупок, объединяющий финансовые услуги экосистемы
+                                .benefits__item-img-box 
+                                    .benefits__item-img-container 
+                                        img.benefits__item-img.img-cards(src="assets/images/benefits-item-img-02.png", alt="изображения банковских карт")
+                        .benefits__item
+                            .benefits__item-content 
+                                .benefits__item-heading 
+                                    .benefits__logo-box 
+                                        svg.benefits__logo(width="214" height="50")
+                                            use(xlink:href="assets/images/sprite.svg#vk-combo")
+                                .benefits__item-text-block 
+                                    p.benefits__item-text Скидки и спецпредложения в&nbsp;популярных сервисах
+                                .benefits__item-img-box 
+                                    .benefits__item-img-container.benefits__item-icons-container
+                                        img.benefits__item-icon(src="assets/images/changes-icons-item-icon-01.png", alt="изображения банковских карт")
+                                        img.benefits__item-icon(src="assets/images/changes-icons-item-icon-03.png", alt="изображения банковских карт")
+                                        img.benefits__item-icon(src="assets/images/changes-icons-item-icon-19.png", alt="изображения банковских карт")
+                                        img.benefits__item-icon(src="assets/images/changes-icons-item-icon-13.png", alt="изображения банковских карт")
+                                        img.benefits__item-icon(src="assets/images/changes-icons-item-icon-05.png", alt="изображения банковских карт")
+                                        img.benefits__item-icon(src="assets/images/benefits-item-icon.png", alt="изображения банковских карт")
+                section.section.try 
+                    .section__heading.try__heading 
+                        h2.section__title.try__title Пора оценить преимущества
+                    .section__text-block.try__text-block
+                        p.section__text.try__text Попробуйте три месяца VK Combo по&nbsp;бонусной цене — 75 ₽ в месяц 
+                    .try__content 
+                        .try__item.item-left.item-bottom
+                            .try__item-img-box
+                                img.try__img(src="assets/images/try-img.png", alt="Пара делает селфи")
+                                svg.try__strokes(width="599" height="161")
+                                    use(xlink:href="assets/images/sprite.svg#try-strokes")
+                        .try__item.item-right
+                            .try__item-text-block
+                                p.try__item-text До&nbsp;21&nbsp;октября дарим скидку: 3&nbsp;месяца подписки на&nbsp;VK&nbsp;Сombo за&nbsp;75&nbsp;₽ в&nbsp;месяц 
+                                a.try__item-link(href="#")  Оформить со скидкой
+                    .try__btn-box 
+                        button.try__btn Акции от других сервисов экосистемы VK
+                section.section.together 
+                    .section__heading.together__heading 
+                        h2.section__title.together__title Вместе — больше
+                    .section__text-block.together__text-block
+                        p.section__text.together__text Теперь мы&nbsp;соединяем проекты так, чтобы&nbsp;вам было ещё удобнее ими&nbsp;пользоваться
+                    .together__items.together__items_top
+                        .together__item.item__top_left
+                            p.together__item-text Интересные вакансии теперь можно найти прямо в&nbsp;любимых соцсетях
+                            .together__item-icons 
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#vk-icon-white")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#ok-icon-blue")                                    
+                        .together__item.item__top_right.item-bottom
+                            p.together__item-text Передвижения по&nbsp;городу и&nbsp;обед без отрыва от&nbsp;общения&nbsp;&mdash; закажите машину или обед прямо в&nbsp;соцсети
+                            .together__item-icons 
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#vk-icon-white")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#ok-icon-violet")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#vk-taxi-icon-violet")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#city-mobil-icon-violet")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#delivery-club-icon-violet")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#together-icon-violet-01")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#together-icon-violet-02")
+                    .together__items.together__items_bottom
+                        .together__item.item__bottom_left
+                            p.together__item-text Голосовой помощник&nbsp;Маруся теперь живет ВКонтакте
+                            .together__item-icons 
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#vk-icon-white")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#marusya-icon")
+                        .together__item.item__bottom_right.item-bottom
+                            p.together__item-text Ваши объявления попадают сразу на две&nbsp;площадки&nbsp;&mdash; единый каталог объявлений для ВКонтакте и&nbsp;Юлы
+                            .together__item-icons 
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#vk-icon-white")
+                                svg.together__icon(width="42" height="42")
+                                    use(xlink:href="assets/images/sprite.svg#yula-icon-green")

@@ -1,0 +1,202 @@
+.section
+	margin: 80px 0 0 0
+	&__title
+		font-size: 64px
+		line-height: 80px
+		color: $color-Black
+		font-weight: normal
+	&__text
+		font-size: 64px
+		line-height: 115%
+		color: $color-Blue_1
+		max-width: 1299px
+		margin: 8px 0 48px 0
+
+.banner
+	margin: 0
+	min-height: 576px
+	height: 100%
+	&__content
+		position: relative
+		display: flex
+		justify-content: space-between
+		background-color: $color-Blue_1
+	&__heading
+		position: absolute
+		top: 54px
+		left: 121px
+		max-width: 1134px
+	&__title
+		font-weight: 400
+		font-size: 96px
+		line-height: 96px
+		color: #FFFFFF
+	&__svg-box
+		position: absolute
+		left: 64px
+		top: calc( 100% - 275px )
+	&__block
+		width: 100%
+	&__block.block-left
+		max-width: 512px
+		height: auto
+
+.changes
+	position: relative
+	&__icons-box
+		padding: 44px 43px 0 43px
+		background-color: $color-Gray_1
+		border-radius: 40px
+		width: 100%
+		max-height: 653px
+		overflow-y: auto
+		display: grid
+		grid-template-columns: repeat(auto-fill, minmax(128px, 1fr))
+		grid-template-rows: repeat(auto-fill, minmax(149px, 1fr))
+		grid-gap: 30px
+	&__icons-item
+		max-width: 149.28px
+	&__gradient-box
+		width: 100%
+		min-height: 146px
+		position: absolute
+		left: 0
+		top: calc( 100% - 145px )
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F4F5F7 100%)
+		border-bottom-left-radius: 40px
+		border-bottom-right-radius: 40px
+
+.benefits
+	&__items
+		display: flex
+		justify-content: space-between
+		width: 100%
+	&__item
+		max-width: 400px
+		width: 100%
+	&__item-content
+		background-color: $color-Gray_1
+		border-radius: 40px
+		padding: 40px 35px 0 35px
+		height: 442px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+	&__item-heading
+		margin-bottom: 46px
+	&__item-text-block
+		margin-bottom: auto
+	&__item-text
+		min-height: 83px
+		font-size: 24px
+		line-height: 115%
+		text-transform: lowercase
+		color: $color-Black
+	&__item-img-box
+		margin: 21px 0 0 0
+	&__item-img-container
+		overflow-y: auto
+	&__item-icons-container
+		display: grid
+		grid-template-columns: repeat(auto-fill, minmax(67px, 1fr))
+		grid-template-rows: repeat(auto-fill, minmax(96px, 1fr))
+		grid-gap: 24px
+		max-height: 160px
+		overflow-y: auto
+
+.try
+	&__content
+		background-color: $color-Blue_1
+		border-radius: 40px
+		display: flex
+	&__item.item-left
+		position: relative
+		max-width: 705px
+		width: 100%
+	&__img
+		border-top-left-radius: 40px
+		border-bottom-left-radius: 40px
+	&__strokes
+		position: absolute
+		top: calc( 100% - 161px )
+		left: 0
+		border-bottom-left-radius: 40px
+	&__item.item-right
+		padding: 36px 55px 36px 42px
+	&__item-text
+		font-size: 32px
+		line-height: 130%
+		color: $color-White
+	&__item-link
+		margin: 57px 0 0 0
+		display: flex
+		align-items: flex-start
+		padding: 16px 32px
+		max-width: 410px
+		width: 100%
+		min-height: 74px
+		background-color: $color-White
+		border-radius: 16px
+		font-size: 32px
+		line-height: 130%
+		color: $color-Blue_1
+	&__btn-box
+		margin: 47px 0 0 0
+		width: 100%
+	&__btn
+		max-width: 846px
+		width: 100%
+		padding: 38px 0
+		margin: 0 auto
+		background-color: $color-Gray_1
+		border: none
+		outline: none
+		border-radius: 40px
+		font-size: 32px
+		line-height: 115%
+		display: flex
+		justify-content: center
+		align-items: center
+		cursor: pointer
+
+.together
+	margin: 80px 0 90px 0
+	&__items
+		&_top,
+		&_bottom
+			display: flex
+			justify-content: space-between
+		&_top
+			margin: 0 0 48px 0
+	&__item
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		padding: 31px 61px 42px 40px
+		border-radius: 40px
+		min-height: 394px
+	&__item-text
+		font-size: 38px
+		line-height: 125%
+		color: $color-White
+	&__icon
+		margin: 0 15px 0 0
+	.item
+		&__top
+			&_left
+				max-width: 674px
+				width: 100%
+				background: url("/assets/images/together-bg-img-01.png") center no-repeat
+			&_right
+				max-width: 592px
+				width: 100%
+				background: url("/assets/images/together-bg-img-02.png") center no-repeat
+		&__bottom
+			&_left
+				max-width: 406px
+				width: 100%
+				background: url("/assets/images/together-bg-img-03.png") center no-repeat
+			&_right
+				max-width: 858px
+				width: 100%
+				background: url("/assets/images/together-bg-img-04.png") center no-repeat
