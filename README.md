@@ -1,4 +1,3 @@
-# Демо https://uxdimon.github.io/vasyan/map.html
 
 ## Использование
 
